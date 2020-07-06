@@ -109,7 +109,8 @@ class Home extends React.Component {
           <div className="column">
             <div className="converter-container">
               <h3 className="description light-font">
-                Enter a number in any box to convert to other number system.
+                Enter a number in any box to convert to the other number
+                systems.
               </h3>
 
               <Form variant="dark">
