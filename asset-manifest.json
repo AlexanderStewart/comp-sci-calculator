@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/comp-sci-calculator/static/css/main.515a0903.chunk.css",
+    "main.js": "/comp-sci-calculator/static/js/main.efbcf7d1.chunk.js",
+    "main.js.map": "/comp-sci-calculator/static/js/main.efbcf7d1.chunk.js.map",
+    "runtime-main.js": "/comp-sci-calculator/static/js/runtime-main.c2922e5b.js",
+    "runtime-main.js.map": "/comp-sci-calculator/static/js/runtime-main.c2922e5b.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/comp-sci-calculator/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.abc8b4ad.chunk.js": "/comp-sci-calculator/static/js/2.abc8b4ad.chunk.js",
+    "static/js/2.abc8b4ad.chunk.js.map": "/comp-sci-calculator/static/js/2.abc8b4ad.chunk.js.map",
+    "index.html": "/comp-sci-calculator/index.html",
+    "precache-manifest.e4d9395454f72b41b8eb161b4c470a65.js": "/comp-sci-calculator/precache-manifest.e4d9395454f72b41b8eb161b4c470a65.js",
+    "service-worker.js": "/comp-sci-calculator/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/comp-sci-calculator/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.515a0903.chunk.css.map": "/comp-sci-calculator/static/css/main.515a0903.chunk.css.map",
+    "static/js/2.abc8b4ad.chunk.js.LICENSE.txt": "/comp-sci-calculator/static/js/2.abc8b4ad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2922e5b.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.abc8b4ad.chunk.js",
+    "static/css/main.515a0903.chunk.css",
+    "static/js/main.efbcf7d1.chunk.js"
+  ]
+}
