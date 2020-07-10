@@ -6,6 +6,9 @@ import "../styles/main.scss";
 //Bootstrap.
 import Form from "react-bootstrap/Form";
 
+//Packages.
+import ParticlesBg from "particles-bg";
+
 function Home() {
   const [hex, setHex] = useState("");
   const [decimal, setDecimal] = useState("");
@@ -70,6 +73,8 @@ function Home() {
 
   return (
     <div className="Home">
+      <ParticlesBg type="circle" bg={true} />
+
       <div className="center-horizontally">
         <div className="column">
           <h1 className="header heavy-font">CompSciCalculator</h1>
@@ -77,7 +82,6 @@ function Home() {
         </div>
       </div>
 
-      {/* convert */}
       <div className="center-horizontally">
         <div className="column">
           <div className="converter-container">
@@ -87,7 +91,7 @@ function Home() {
 
             <Form variant="dark">
               <Form.Group>
-                <Form.Label>Hex</Form.Label>
+                <Form.Label className="white-text">Hex</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows="1"
@@ -96,7 +100,7 @@ function Home() {
                 />
               </Form.Group>
               <Form.Group>
-                <Form.Label>Decimal</Form.Label>
+                <Form.Label className="white-text">Decimal</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows="1"
@@ -105,7 +109,7 @@ function Home() {
                 />
               </Form.Group>
               <Form.Group>
-                <Form.Label>Octal</Form.Label>
+                <Form.Label className="white-text">Octal</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows="1"
@@ -114,7 +118,7 @@ function Home() {
                 />
               </Form.Group>
               <Form.Group>
-                <Form.Label>Binary</Form.Label>
+                <Form.Label className="white-text">Binary</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows="1"
